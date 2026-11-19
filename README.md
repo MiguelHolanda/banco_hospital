@@ -1,4 +1,4 @@
-# 🏥 Hospital Database — Sistema de Gerenciamento Hospitalar
+#  Hospital Database — Sistema de Gerenciamento Hospitalar
 
 Projeto acadêmico de **Banco de Dados Relacional**, desenvolvido utilizando **MySQL 8.0**, com o objetivo de organizar e gerenciar informações de um hospital.
 
@@ -6,7 +6,7 @@ O sistema permite armazenar e relacionar informações de pacientes, médicos, q
 
 ---
 
-## 📌 Contextualização
+##  Contextualização
 
 A administração de um hospital envolve diversas informações que precisam ser armazenadas, organizadas e consultadas constantemente.
 
@@ -21,7 +21,7 @@ Quando essas informações são armazenadas separadamente, podem ocorrer problem
 - Dificuldade para consultar prescrições médicas.
 - Repetição e inconsistência de informações.
 
-## 🎯 Objetivo do Projeto
+##  Objetivo do Projeto
 
 Desenvolver um banco de dados relacional utilizando MySQL para centralizar e organizar as informações hospitalares.
 
@@ -38,15 +38,15 @@ A estrutura foi planejada para conectar diferentes áreas do hospital por meio d
 
 ---
 
-## 🗄️ Modelagem do Banco de Dados
+##  Modelagem do Banco de Dados
 
 O banco de dados possui o nome `hospital_db` e é composto por **6 tabelas relacionadas**.
 
-### 📊 Diagrama Entidade-Relacionamento (DER)
+###  Diagrama Entidade-Relacionamento (DER)
 
 O diagrama apresenta as entidades, seus atributos e os relacionamentos existentes no banco de dados.
 
-### 📋 Estrutura das Tabelas
+###  Estrutura das Tabelas
 
 #### 1. Pacientes (`pacientes`)
 
@@ -124,7 +124,7 @@ Armazena os medicamentos e as orientações prescritas durante as consultas.
 
 ---
 
-## 🔗 Relacionamentos e Cardinalidade
+## Relacionamentos e Cardinalidade
 
 O banco utiliza relacionamentos do tipo **1:N (Um para Muitos)**.
 
@@ -144,9 +144,9 @@ As chaves primárias (PK) identificam exclusivamente cada registro.
 
 ---
 
-## 🚀 Como Executar o Projeto
+##  Como Executar o Projeto
 
-### 📋 Pré-requisitos
+###  Pré-requisitos
 
 Antes de executar o projeto, é necessário possuir:
 
@@ -183,7 +183,7 @@ Após criar o banco de dados, importe os arquivos na seguinte ordem:
 5. Execute o script pelo botão de raio.
 6. Repita o procedimento para os demais arquivos, respeitando a ordem indicada.
 
-⚠️ **Atenção:** Os arquivos SQL possuem comandos `DROP TABLE IF EXISTS` e inserções de dados. Portanto, executá-los novamente recria as respectivas tabelas e pode apagar os dados existentes.
+ **Atenção:** Os arquivos SQL possuem comandos `DROP TABLE IF EXISTS` e inserções de dados. Portanto, executá-los novamente recria as respectivas tabelas e pode apagar os dados existentes.
 
 ### 4. Verificar a Criação do Banco
 
@@ -217,7 +217,7 @@ SELECT * FROM prescricoes;
 
 ---
 
-## 📊 Índices e Otimização
+##  Índices e Otimização
 
 Foram criados índices para facilitar buscas frequentes e melhorar o desempenho de determinadas consultas.
 
@@ -231,7 +231,7 @@ Também são utilizados índices associados às chaves primárias, chaves estran
 
 ---
 
-## 📝 Consultas SQL Desenvolvidas
+##  Consultas SQL Desenvolvidas
 
 O projeto possui **10 consultas SQL**, desenvolvidas para simular situações reais da administração hospitalar.
 
@@ -265,7 +265,7 @@ Esses recursos permitem elaborar relatórios e extrair informações relevantes 
 
 ---
 
-## 🎓 Objetivo Educacional
+##  Objetivo Educacional
 
 Este projeto tem como finalidade colocar em prática os principais conceitos de Banco de Dados Relacionais, incluindo:
 
@@ -279,14 +279,14 @@ Este projeto tem como finalidade colocar em prática os principais conceitos de 
 
 ---
 
-## 👨‍💻 Autor
+##  Autor
 
 **Miguel Holanda**
 
 Projeto desenvolvido como atividade acadêmica de Banco de Dados.
 ---
 
-## 📄 Licença e Observações
+##  Licença e Observações
 
 Projeto desenvolvido para fins educacionais.
 
